@@ -94,7 +94,7 @@ export default function Home() {
                     ))}
                     {loading && (
                         <div className="text-gray-400 text-sm text-center mt-2">
-                            Bot is typing...
+                            Bro is cooking...
                         </div>
                     )}
                 </div>
