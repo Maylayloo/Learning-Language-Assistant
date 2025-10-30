@@ -7,7 +7,7 @@ app = FastAPI()
 # Pozwalamy Next.js (frontendowi) łączyć się z backendem
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[],  # adres frontu
+    allow_origins=['http://localhost:3000/'],  # adres frontu
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
